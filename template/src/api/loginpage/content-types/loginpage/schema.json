@@ -1,0 +1,189 @@
+{
+  "kind": "singleType",
+  "collectionName": "loginpages",
+  "info": {
+    "singularName": "loginpage",
+    "pluralName": "loginpages",
+    "displayName": "Loginpage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Login_Header": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Welcome back",
+      "required": true
+    },
+    "Login_Subheader": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Sign in to access an enhanced shopping experience.",
+      "required": true
+    },
+    "EMail_Placeholder": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Email",
+      "required": true
+    },
+    "Passwort_Placeholder": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Passwort",
+      "required": true
+    },
+    "Register_now_text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Jetzt Registrieren",
+      "required": true
+    },
+    "Login_Fehler": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "These credentials do not match our records",
+      "required": true
+    },
+    "Register_Header": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "BECOME A PILLENSTEIN MEMBER",
+      "required": true
+    },
+    "Register_Subheader": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Create your Pillenstein Member profile, and get access to an enhanced shopping experience.",
+      "required": true
+    },
+    "Vorname_Placeholder": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Vorname",
+      "required": true
+    },
+    "Nachname_Placeholder": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Nachname"
+    },
+    "Email_Placeholder": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Email",
+      "required": true
+    },
+    "Phone_Placeholder": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Telefon",
+      "required": true
+    },
+    "Register_Paswwort_Placeholder": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Passwort",
+      "required": true
+    },
+    "Login_Button_Text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Login",
+      "required": true
+    },
+    "Register_Button_Text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Registrieren",
+      "required": true
+    },
+    "Feldfehler_Text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "wird benötigt",
+      "required": true
+    },
+    "Register_Privacy_Text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "By creating an account, you agree to Acme's Privacy Policy and Terms of Use.",
+      "required": true
+    }
+  }
+}

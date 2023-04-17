@@ -1,0 +1,109 @@
+{
+  "kind": "singleType",
+  "collectionName": "orderspages",
+  "info": {
+    "singularName": "orderspage",
+    "pluralName": "orderspages",
+    "displayName": "Orderspage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Heading": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Bestellungen",
+      "required": true
+    },
+    "Subheading": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "default": "View your previous orders and their status. You can also create returns or exchanges for your orders if needed."
+    },
+    "nothing_loaded": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Nothing to see here",
+      "required": true
+    },
+    "no_orders_made": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "You don&apos;t have any orders yet, let us change that",
+      "required": true
+    },
+    "continue_shopping": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Weiter einkaufen",
+      "required": true
+    },
+    "item": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "item",
+      "required": true
+    },
+    "items": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "items",
+      "required": true
+    },
+    "see_details": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Details ansehen",
+      "required": true
+    },
+    "more": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "mehr",
+      "required": true
+    }
+  }
+}

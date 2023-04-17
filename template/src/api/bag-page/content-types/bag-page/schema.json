@@ -1,0 +1,149 @@
+{
+  "kind": "singleType",
+  "collectionName": "bag_pages",
+  "info": {
+    "singularName": "bag-page",
+    "pluralName": "bag-pages",
+    "displayName": "BagPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Header": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Warenkorb",
+      "required": true
+    },
+    "discount": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Rabattcode",
+      "required": true
+    },
+    "apply": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "anwenden",
+      "required": true
+    },
+    "go_to_checkout": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Zur Kasse",
+      "required": true
+    },
+    "remove": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Entfernen",
+      "required": true
+    },
+    "remove_discount": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Rabatt entfernen",
+      "required": true
+    },
+    "empty_cart": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Dein Warenkorb ist leer",
+      "required": true
+    },
+    "empty_card_text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "You don't have anything in your bag. Let's change that, use the link below to start browsing our products.",
+      "required": true
+    },
+    "explore_products": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Produkte entdecken",
+      "required": true
+    },
+    "alreaddy_account": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Hasi du schon einen Account?",
+      "required": true
+    },
+    "sign_in_now": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Jetzt Anmelden",
+      "required": true
+    },
+    "sign_in": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "anmelden",
+      "required": true
+    },
+    "gift_card": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    }
+  }
+}

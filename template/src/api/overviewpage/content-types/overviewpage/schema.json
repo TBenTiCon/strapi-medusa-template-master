@@ -1,0 +1,159 @@
+{
+  "kind": "singleType",
+  "collectionName": "overviewpages",
+  "info": {
+    "singularName": "overviewpage",
+    "pluralName": "overviewpages",
+    "displayName": "Overviewpage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Introduction": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Hello",
+      "required": true
+    },
+    "Login_Text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Eingeloggt als",
+      "required": true
+    },
+    "Profile": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Profil",
+      "required": true
+    },
+    "Completed": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Abgeschlossen",
+      "required": true
+    },
+    "Adresses": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Adressen",
+      "required": true
+    },
+    "Saved": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Gespeichert",
+      "required": true
+    },
+    "Recent": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Neuste Bestellungen",
+      "required": true
+    },
+    "Date_Placed": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Bestelldatum",
+      "required": true
+    },
+    "Order_Number": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Bestellnummer",
+      "required": true
+    },
+    "Total_Amount": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Gesamtbetrag"
+    },
+    "No_Recent_orders": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Keine Aktuellen Bestellungen",
+      "required": true
+    },
+    "questions": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Got questions?",
+      "required": true
+    },
+    "questions_sub": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "You can find frequently asked questions and answers on our               customer service page.",
+      "required": true
+    },
+    "customer_service": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Kundenservice",
+      "required": true
+    }
+  }
+}

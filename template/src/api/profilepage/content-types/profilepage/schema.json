@@ -1,0 +1,259 @@
+{
+  "kind": "singleType",
+  "collectionName": "profilepages",
+  "info": {
+    "singularName": "profilepage",
+    "pluralName": "profilepages",
+    "displayName": "Profilepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Profile_heading": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "default": "Profil"
+    },
+    "Profile_Subheading": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "View and update your profile information, including your name, email, and phone number. You can also update your billing address, or change your password.",
+      "required": true
+    },
+    "Name": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Name",
+      "required": true
+    },
+    "Email": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Email",
+      "required": true
+    },
+    "Phone": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Phone",
+      "required": true
+    },
+    "Passwort": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Passwort",
+      "required": true
+    },
+    "Rechnungsaddresse": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Rechnungsadresse",
+      "required": true,
+      "unique": true
+    },
+    "Edit_Button_Text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Bearbeiten"
+    },
+    "Old_Password": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Altes Passwort",
+      "required": true
+    },
+    "New_Password": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Neues Passwort",
+      "required": true
+    },
+    "Confirm_password": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Passwort Bestätigen",
+      "required": true
+    },
+    "Vorname": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Vorname",
+      "required": true
+    },
+    "Nachname": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Nachname",
+      "required": true
+    },
+    "Save_Button_Text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Speichern",
+      "required": true
+    },
+    "Unternehmen": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Unternehmen",
+      "required": true
+    },
+    "Addresse": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Addresse",
+      "required": true
+    },
+    "Addresse_2": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Addresse 2"
+    },
+    "PLZ": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "PLZ",
+      "required": true
+    },
+    "Stadt": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Stadt",
+      "required": true
+    },
+    "Bundesland": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Bundesland",
+      "required": true
+    },
+    "Land": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "default": "Land"
+    },
+    "No_Billing_info": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Keine Rechnungsadresse hinterlegt",
+      "required": true
+    },
+    "Cancel_Button_text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Abbrechen",
+      "required": true
+    },
+    "Success": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Update erfolgreich",
+      "required": true
+    }
+  }
+}

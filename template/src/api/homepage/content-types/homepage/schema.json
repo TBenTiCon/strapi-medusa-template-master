@@ -1,0 +1,210 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Angebote_Ueberschrift": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Unsere Angebote Entdecken",
+      "required": true
+    },
+    "Angebote_Button_Text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Alle Angebote entdecken",
+      "required": true
+    },
+    "Angebot_Detail_Button_Text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "default": "Details ansehen"
+    },
+    "Unsere_Kategorien_Text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "default": "Unsere Kategorien"
+    },
+    "Momentan_im_Sale_text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Momentan im Sale",
+      "required": true
+    },
+    "Sale_Button_Text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Alle Saleartikel entdecken",
+      "required": true
+    },
+    "Ueber_uns_Ueberschrift": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Herzlich Willkommen",
+      "required": true
+    },
+    "Ueber_uns_Text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext",
+      "default": "Wir bieten Ihnen im Pillenstein-Online-Shop eine breite Produktauswahl über BRANDRUP® VW Spezialzubehör, wie Camper- und Van-Equipment für den Volkswagen California, Multivan, Crafter und Caddy, mobile Kühlboxen von Dometic, Pflegeprodukte von KochChemie und Original VW-Zubehör.  Neben einem ausgezeichneten Service – von der Beratung, als auch über unseren einfachen Bezahl- und Kundenservice stehen Sie bei unserem Familienunternehmen Pillenstein als zufriedener Kunde im Vordergrund: Damit Ihr nächster Urlaub ganz besonders wird!",
+      "required": true
+    },
+    "Newsletter_Ueberschrift": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Newsletter Abonnieren",
+      "required": true
+    },
+    "Newsletter_Text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "und exklusive Aktionen, Gutscheine & Schnäppchen sichern",
+      "required": true
+    },
+    "Newsletter_Button": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Jetzt Anmelden",
+      "required": true
+    },
+    "USP_1_Ueberschrift": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Höchste Qualität",
+      "required": true
+    },
+    "USP_1_Text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Alle Artikel durchlaufen eine strenge Qualitätskontrolle",
+      "required": true
+    },
+    "USP_2_Ueberschrift": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Kostenlose Rücksendung",
+      "required": true
+    },
+    "USP_2_Text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Senden Sie Artikel kostenlos an uns zurück",
+      "required": true
+    },
+    "USP_3_Ueberschrift": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Kauf auf rechnung",
+      "required": true
+    },
+    "USP_3_Text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Alle unsere Produkte können Sie bequem auf Rechnung kaufen!",
+      "required": true
+    },
+    "USP_4_Ueberschrift": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "30 Tage Rückgaberecht",
+      "required": true
+    },
+    "USP_4_Text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Alle Produkte haben ein 30.Tage Rückgaberecht",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "navmenus",
+  "info": {
+    "singularName": "navmenu",
+    "pluralName": "navmenus",
+    "displayName": "Navmenu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Produkte": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "default": "Produkte"
+    }
+  }
+}

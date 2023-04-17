@@ -1,0 +1,110 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Information": {
+      "type": "richtext",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "default": "PILLENSTEIN Volkswagen Zentrum Fürth Pillenstein Nürnberger Str. 147 90762 Fürth Telefon: 0911 9702-798 Telefax: 0911 9702-767 E-Mail: shop@pillenstein.de"
+    },
+    "Kategorien_Ueberschrift": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Produktkategorien",
+      "required": true
+    },
+    "Information_Ueberschrift": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Information",
+      "required": true
+    },
+    "AGB": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "AGB",
+      "required": true
+    },
+    "Datenschutz": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Datenschutz",
+      "required": true
+    },
+    "Impressum": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Impressum",
+      "required": true
+    },
+    "Versand_und_Zahlungsbedingungen": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Versand- und Zahlungsbedingungen",
+      "required": true
+    },
+    "Widerruf": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Widerruf",
+      "required": true
+    },
+    "Company_Name": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Pillenstein",
+      "required": true
+    }
+  }
+}
